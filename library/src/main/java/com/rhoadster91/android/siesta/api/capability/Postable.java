@@ -14,16 +14,11 @@
  * limitations under the License.
  */
 
-package com.rhoadster91.android.siesta.demo;
+package com.rhoadster91.android.siesta.api.capability;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.rhoadster91.android.siesta.request.PostRequest;
 
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+public interface Postable<T> {
+    PostRequest<T> newPostRequest();
+    boolean isPostSuccess(int responseCode, T response);
 }

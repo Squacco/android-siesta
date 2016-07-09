@@ -14,16 +14,11 @@
  * limitations under the License.
  */
 
-package com.rhoadster91.android.siesta.demo;
+package com.rhoadster91.android.siesta.request;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+public abstract class RESTApiRequest {
+    public static final int METHOD_GET = 1;
+    public static final int METHOD_POST = 2;
+    public static final int METHOD_PUT = 3;
+    public static final int METHOD_DELETE = 4;
 }

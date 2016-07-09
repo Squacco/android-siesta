@@ -14,16 +14,11 @@
  * limitations under the License.
  */
 
-package com.rhoadster91.android.siesta.demo;
+package com.rhoadster91.android.siesta.api.capability;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.rhoadster91.android.siesta.request.GetRequest;
 
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+public interface Gettable<T> {
+    GetRequest<T> newGetRequest();
+    boolean isGetSuccess(int responseCode, T response);
 }

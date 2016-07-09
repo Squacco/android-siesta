@@ -14,16 +14,35 @@
  * limitations under the License.
  */
 
-package com.rhoadster91.android.siesta.demo;
+package com.rhoadster91.android.siesta;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+public class ResponseWrapper<R> {
 
-public class MainActivity extends AppCompatActivity {
+    private int code;
+    private R response;
+    private Throwable throwable;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public R getResponse() {
+        return response;
+    }
+
+    public void setResponse(R response) {
+        this.response = response;
+    }
+
+    public Throwable getThrowable() {
+        return throwable;
+    }
+
+    public void setThrowable(Throwable throwable) {
+        this.throwable = throwable;
     }
 }
