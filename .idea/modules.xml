@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///media/data/Girish/projects/AndroidSiesta/AndroidSiesta.iml" filepath="/media/data/Girish/projects/AndroidSiesta/AndroidSiesta.iml" />
+      <module fileurl="file:///media/data/Girish/projects/AndroidSiesta/demo/demo.iml" filepath="/media/data/Girish/projects/AndroidSiesta/demo/demo.iml" />
+      <module fileurl="file:///media/data/Girish/projects/AndroidSiesta/library/app.iml" filepath="/media/data/Girish/projects/AndroidSiesta/library/app.iml" />
+    </modules>
+  </component>
+</project>
