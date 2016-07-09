@@ -17,7 +17,7 @@
 package com.rhoadster91.android.siesta.request;
 
 import com.rhoadster91.android.siesta.api.Api;
-import com.rhoadster91.android.siesta.ResponseWrapper;
+import com.rhoadster91.android.siesta.response.ResponseWrapper;
 import com.rhoadster91.android.siesta.api.capability.Puttable;
 
 import java.util.Map;

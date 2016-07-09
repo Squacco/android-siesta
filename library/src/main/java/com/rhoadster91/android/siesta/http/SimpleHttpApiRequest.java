@@ -18,7 +18,7 @@ package com.rhoadster91.android.siesta.http;
 
 import com.rhoadster91.android.siesta.api.Api;
 import com.rhoadster91.android.siesta.request.RESTApiRequest;
-import com.rhoadster91.android.siesta.ResponseWrapper;
+import com.rhoadster91.android.siesta.response.ResponseWrapper;
 import com.rhoadster91.android.siesta.api.capability.Deletable;
 import com.rhoadster91.android.siesta.api.capability.Gettable;
 import com.rhoadster91.android.siesta.api.capability.Postable;

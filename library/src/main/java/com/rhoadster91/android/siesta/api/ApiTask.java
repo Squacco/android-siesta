@@ -26,7 +26,7 @@ import com.rhoadster91.android.siesta.api.capability.Gettable;
 import com.rhoadster91.android.siesta.api.capability.Postable;
 import com.rhoadster91.android.siesta.api.capability.Puttable;
 import com.rhoadster91.android.siesta.request.RESTApiRequest;
-import com.rhoadster91.android.siesta.ResponseWrapper;
+import com.rhoadster91.android.siesta.response.ResponseWrapper;
 
 import java.util.Map;
 import java.util.TreeMap;

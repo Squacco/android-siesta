@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rhoadster91.android.siesta;
+package com.rhoadster91.android.siesta.response;
 
 public class ResponseWrapper<R> {
 
